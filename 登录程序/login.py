@@ -38,4 +38,36 @@ while count > 0:
     info.close()
     os.remove('登录程序用户信息（utf-8）.txt')
     os.rename('登录程序用户信息（utf-8）new.txt', '登录程序用户信息（utf-8）.txt')
-    
+
+
+# 运行结果
+# 1、
+# username:alex
+# password:a123
+# welcome alex
+#
+# Process finished with exit code 0
+
+# 2、
+# username:alex
+# password:1234
+# username or password wrong
+# have 2 choice
+# username:alex
+# password:1234
+# username or password wrong
+# have 1 choice
+# username:alex
+# password:1234
+# username or password wrong
+# have 0 choice
+# wrong 3 times,account will lock
+#
+# Process finished with exit code 0
+
+# 3、
+# username:alex
+# password:a123
+# account locked
+#
+# Process finished with exit code 0
